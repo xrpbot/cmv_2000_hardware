@@ -1,409 +1,416 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-08 BZR 4987)-product   date = Mon 14 Jul 2014 11:57:29 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-07-08 BZR 4987)-product   date = Sun 20 Jul 2014 11:07:30 PM CEST
 
 BeginCmp
 TimeStamp = /53C50E2D;
 Reference = C101;
 ValeurCmp = 100µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C50E6C;
 Reference = C102;
 ValeurCmp = 100µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C50EA3;
 Reference = C103;
 ValeurCmp = 100µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C08206;
 Reference = C201;
 ValeurCmp = 100µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C082B1;
 Reference = C202;
 ValeurCmp = 100µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C53C86;
+Reference = C203;
+ValeurCmp = 330µ;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C53E0B;
+Reference = C204;
+ValeurCmp = 33µ;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C087BB;
-Reference = C203;
+Reference = C205;
 ValeurCmp = 10µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C087C1;
-Reference = C204;
+Reference = C206;
 ValeurCmp = 10µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C53CC7;
+Reference = C207;
+ValeurCmp = 330µ;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C53E52;
+Reference = C208;
+ValeurCmp = 33µ;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C08EB8;
-Reference = C205;
+Reference = C209;
 ValeurCmp = 10µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C08EBE;
-Reference = C206;
+Reference = C210;
 ValeurCmp = 10µ;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C53CE8;
+Reference = C211;
+ValeurCmp = 330µ;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C53E91;
+Reference = C212;
+ValeurCmp = 33µ;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56856;
-Reference = C207;
+Reference = C301;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5685C;
-Reference = C208;
+Reference = C302;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56862;
-Reference = C209;
+Reference = C303;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56868;
-Reference = C210;
+Reference = C304;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5686E;
-Reference = C211;
+Reference = C305;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56874;
-Reference = C212;
+Reference = C306;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5687A;
-Reference = C213;
+Reference = C307;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56880;
-Reference = C214;
+Reference = C308;
 ValeurCmp = 100n;
-IdModule  = SMD_Packages:SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C06B85/53C5C352;
-Reference = C215;
-ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56886;
-Reference = C216;
+Reference = C309;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C06B85/53C5C358;
-Reference = C217;
-ValeurCmp = 100n;
+TimeStamp = /53C06B85/53C5C352;
+Reference = C310;
+ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5688C;
-Reference = C218;
+Reference = C311;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C06B85/53C5C35E;
-Reference = C219;
-ValeurCmp = 4.7µ;
+TimeStamp = /53C06B85/53C5C358;
+Reference = C312;
+ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56892;
-Reference = C220;
+Reference = C313;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C06B85/53C5C364;
-Reference = C221;
-ValeurCmp = 100n;
+TimeStamp = /53C06B85/53C5C35E;
+Reference = C314;
+ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C56898;
-Reference = C222;
+Reference = C315;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B85/53C5C364;
+Reference = C316;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C36A;
-Reference = C223;
+Reference = C317;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C370;
-Reference = C224;
+Reference = C318;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C376;
-Reference = C225;
+Reference = C319;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C37C;
-Reference = C226;
+Reference = C320;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C382;
-Reference = C227;
+Reference = C321;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C388;
-Reference = C228;
+Reference = C322;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C38E;
-Reference = C229;
+Reference = C323;
 ValeurCmp = 4.7µ;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C5C394;
-Reference = C230;
+Reference = C324;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C06B27/53C53C86;
-Reference = C301;
-ValeurCmp = 330µ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C06B27/53C53E0B;
-Reference = C302;
-ValeurCmp = 33µ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C06B27/53C53CC7;
-Reference = C303;
-ValeurCmp = 330µ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C06B27/53C53E52;
-Reference = C304;
-ValeurCmp = 33µ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C06B27/53C53CE8;
-Reference = C305;
-ValeurCmp = 330µ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C06B27/53C53E91;
-Reference = C306;
-ValeurCmp = 33µ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C06B85/53C221D5;
-Reference = C401;
+Reference = C325;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221D7;
-Reference = C402;
+Reference = C326;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221D4;
-Reference = C403;
+Reference = C327;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221D6;
-Reference = C404;
+Reference = C328;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221C0;
-Reference = C405;
+Reference = C329;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221C2;
-Reference = C406;
+Reference = C330;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221C4;
-Reference = C407;
+Reference = C331;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221C6;
-Reference = C408;
+Reference = C332;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10B92;
-Reference = C409;
+Reference = C333;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10B9E;
-Reference = C410;
+Reference = C334;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10BAA;
-Reference = C411;
+Reference = C335;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221CE;
-Reference = C412;
+Reference = C336;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221C1;
-Reference = C413;
+Reference = C337;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221C3;
-Reference = C414;
+Reference = C338;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10800;
-Reference = C415;
+Reference = C339;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C1080C;
-Reference = C416;
+Reference = C340;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10B98;
-Reference = C417;
+Reference = C341;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10BA4;
-Reference = C418;
+Reference = C342;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10BB0;
-Reference = C419;
+Reference = C343;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53C9F837;
+Reference = D201;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
@@ -414,31 +421,66 @@ IdModule  = owncomp:FI-RE51S-HF-R1500;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C06B85/53C32C66;
+TimeStamp = /53C06B27/53C9F93E;
 Reference = R201;
+ValeurCmp = 680;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B85/53C32C66;
+Reference = R301;
 ValeurCmp = 100;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53C06B85/53C87551;
+Reference = R302;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B85/53C875A0;
+Reference = R303;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B85/53C85F97;
+Reference = R304;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B85/53C8763B;
+Reference = R305;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53C06B85/53C13DB9;
-Reference = TP401;
+Reference = TP301;
 ValeurCmp = TESTPOINT;
-IdModule  = Connect:TESTPOINT;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221D1;
-Reference = TP402;
+Reference = TP302;
 ValeurCmp = TESTPOINT;
-IdModule  = Connect:TESTPOINT;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C221D2;
-Reference = TP403;
+Reference = TP303;
 ValeurCmp = TESTPOINT;
-IdModule  = Connect:TESTPOINT;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
@@ -464,9 +506,65 @@ EndCmp
 
 BeginCmp
 TimeStamp = /53C06B85/53C10138;
-Reference = U401;
+Reference = U301;
 ValeurCmp = CMV2000;
 IdModule  = owncomp:CMV2000;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB95F5;
+Reference = U401;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB961B;
+Reference = U402;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB967B;
+Reference = U403;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB96AC;
+Reference = U404;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB97DB;
+Reference = U405;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB96E4;
+Reference = U406;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB9709;
+Reference = U407;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB95EC/53CB972F;
+Reference = U408;
+ValeurCmp = MOUNTHOLE;
+IdModule  = owncomp:MOUNTING_HOLE;
 EndCmp
 
 EndListe
