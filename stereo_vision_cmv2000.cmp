@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-08 BZR 4987)-product   date = Sun 20 Jul 2014 11:07:30 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-07-08 BZR 4987)-product   date = Wed 23 Jul 2014 02:05:44 AM CEST
 
 BeginCmp
 TimeStamp = /53C50E2D;
@@ -80,14 +80,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53C06B27/53C08EB8;
 Reference = C209;
-ValeurCmp = 10µ;
+ValeurCmp = 1µ;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C06B27/53C08EBE;
 Reference = C210;
-ValeurCmp = 10µ;
+ValeurCmp = 1µ;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
@@ -414,10 +414,38 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C2EC52;
+TimeStamp = /53C06B27/53D9B91A;
+Reference = L201;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53D9B7D5;
+Reference = L202;
+ValeurCmp = 600R;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53D9B939;
+Reference = L203;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D1305F;
 Reference = P101;
-ValeurCmp = FI-RE51S-HF-R1500;
-IdModule  = owncomp:FI-RE51S-HF-R1500;
+ValeurCmp = CONN_51;
+IdModule  = owncomp:MOLEX_FPC_0.3mm_51pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D7FE5B;
+Reference = P102;
+ValeurCmp = CONN_33;
+IdModule  = owncomp:MOLEX_FPC_0.3mm_33pin;
 EndCmp
 
 BeginCmp
@@ -463,6 +491,27 @@ IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53D8E0E3/53D90C1D;
+Reference = R501;
+ValeurCmp = 2k;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D8E0E3/53D9179D;
+Reference = R502;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D8E0E3/53D9172C;
+Reference = R503;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53C06B85/53C13DB9;
 Reference = TP301;
 ValeurCmp = TESTPOINT;
@@ -498,10 +547,10 @@ IdModule  = SMD_Packages:SOT223;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C06B27/53C0801E;
+TimeStamp = /53C06B27/53D8EB81;
 Reference = U203;
-ValeurCmp = NCP1117ST20T3G;
-IdModule  = SMD_Packages:SOT223;
+ValeurCmp = RT9017-20GBR;
+IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
 BeginCmp
@@ -565,6 +614,20 @@ TimeStamp = /53CB95EC/53CB972F;
 Reference = U408;
 ValeurCmp = MOUNTHOLE;
 IdModule  = owncomp:MOUNTING_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D8E0E3/53D90BB8;
+Reference = U501;
+ValeurCmp = 24AA025E48;
+IdModule  = SMD_Packages:SOT23_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D8E0E3/53D91632;
+Reference = U502;
+ValeurCmp = PAC1720;
+IdModule  = owncomp:DFN-10;
 EndCmp
 
 EndListe
