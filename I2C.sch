@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -72,7 +72,6 @@ Wire Wire Line
 	2450 3350 2100 3350
 Wire Wire Line
 	2450 3250 2100 3250
-Connection ~ 2200 3450
 Wire Wire Line
 	3450 3250 3350 3250
 Wire Wire Line
