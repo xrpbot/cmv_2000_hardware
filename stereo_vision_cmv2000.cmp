@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-08 BZR 4987)-product   date = Wed 23 Jul 2014 02:05:44 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 07 Dec 2014 10:52:12 PM CET
 
 BeginCmp
 TimeStamp = /53C50E2D;
@@ -416,7 +416,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53C06B27/53D9B91A;
 Reference = L201;
-ValeurCmp = INDUCTOR_SMALL;
+ValeurCmp = 600R;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -430,22 +430,43 @@ EndCmp
 BeginCmp
 TimeStamp = /53C06B27/53D9B939;
 Reference = L203;
-ValeurCmp = INDUCTOR_SMALL;
+ValeurCmp = 600R;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D1305F;
-Reference = P101;
-ValeurCmp = CONN_51;
-IdModule  = owncomp:MOLEX_FPC_0.3mm_51pin;
+TimeStamp = /53C06B27/53DAC89B;
+Reference = L204;
+ValeurCmp = 600R;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D7FE5B;
+TimeStamp = /53C06B27/53DAC4A7;
+Reference = L205;
+ValeurCmp = 600R;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06B27/53DACBC2;
+Reference = L206;
+ValeurCmp = 600R;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5484DF82;
+Reference = P101;
+ValeurCmp = CONN_51;
+IdModule  = owncomp:FI-RE51S-HF-R1500;
+EndCmp
+
+BeginCmp
+TimeStamp = /5485592A;
 Reference = P102;
-ValeurCmp = CONN_33;
-IdModule  = owncomp:MOLEX_FPC_0.3mm_33pin;
+ValeurCmp = CONN_31;
+IdModule  = owncomp:FI-RE31S-HF-R1500;
 EndCmp
 
 BeginCmp
@@ -486,27 +507,6 @@ EndCmp
 BeginCmp
 TimeStamp = /53C06B85/53C8763B;
 Reference = R305;
-ValeurCmp = R;
-IdModule  = SMD_Packages:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D8E0E3/53D90C1D;
-Reference = R501;
-ValeurCmp = 2k;
-IdModule  = SMD_Packages:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D8E0E3/53D9179D;
-Reference = R502;
-ValeurCmp = R;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D8E0E3/53D9172C;
-Reference = R503;
 ValeurCmp = R;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
@@ -621,13 +621,6 @@ TimeStamp = /53D8E0E3/53D90BB8;
 Reference = U501;
 ValeurCmp = 24AA025E48;
 IdModule  = SMD_Packages:SOT23_6;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D8E0E3/53D91632;
-Reference = U502;
-ValeurCmp = PAC1720;
-IdModule  = owncomp:DFN-10;
 EndCmp
 
 EndListe

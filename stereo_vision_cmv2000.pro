@@ -1,4 +1,4 @@
-update=Mon 28 Jul 2014 08:53:18 PM CEST
+update=Mon 08 Dec 2014 01:12:36 AM CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -58,10 +58,10 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=
 UseCmpFile=1
-PadDrill=2.7
-PadDrillOvalY=2.7
-PadSizeH=4.5
-PadSizeV=4.5
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=2.5
+PadSizeV=1.55
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
