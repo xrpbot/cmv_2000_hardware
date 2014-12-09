@@ -224,8 +224,6 @@ Wire Wire Line
 Wire Wire Line
 	950  1500 650  1500
 Wire Wire Line
-	5050 9350 4900 9350
-Wire Wire Line
 	2850 6800 3050 6800
 Wire Wire Line
 	3050 6700 2850 6700
