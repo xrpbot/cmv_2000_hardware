@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name owncomp)(type Legacy)(uri ${KIPRJMOD}/kicad-modules/owncomp.lib)(options "")(descr ""))
+)

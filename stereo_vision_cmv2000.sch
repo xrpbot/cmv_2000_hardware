@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:owncomp
-LIBS:stereo_vision_cmv2000-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -46,34 +14,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C101
+L Device:C C101
 U 1 1 53C50E2D
 P 2200 1200
 F 0 "C101" H 2200 1300 40  0000 L CNN
 F 1 "100µ" H 2206 1115 40  0000 L CNN
-F 2 "SMD_Packages:SM1210" H 2238 1050 30  0000 C CNN
+F 2 "SMD_Packages:SM1210" H 2238 1050 30  0001 C CNN
 F 3 "" H 2200 1200 60  0000 C CNN
 	1    2200 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C102
+L Device:C C102
 U 1 1 53C50E6C
 P 2400 1100
 F 0 "C102" H 2400 1200 40  0000 L CNN
 F 1 "100µ" H 2406 1015 40  0000 L CNN
-F 2 "SMD_Packages:SM1210" H 2438 950 30  0000 C CNN
+F 2 "SMD_Packages:SM1210" H 2438 950 30  0001 C CNN
 F 3 "" H 2400 1100 60  0000 C CNN
 	1    2400 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C103
+L Device:C C103
 U 1 1 53C50EA3
 P 2600 1000
 F 0 "C103" H 2600 1100 40  0000 L CNN
 F 1 "100µ" H 2606 915 40  0000 L CNN
-F 2 "SMD_Packages:SM1210" H 2638 850 30  0000 C CNN
+F 2 "SMD_Packages:SM1210" H 2638 850 30  0001 C CNN
 F 3 "" H 2600 1000 60  0000 C CNN
 	1    2600 1000
 	1    0    0    -1  
@@ -120,7 +88,7 @@ LED
 Text Label 1900 1200 0    60   ~ 0
 3.3V
 $Comp
-L CONN_51 P101
+L owncomp:CONN_51 P101
 U 1 1 5484DF82
 P 5550 3950
 F 0 "P101" V 5550 3950 60  0000 C CNN
@@ -188,31 +156,16 @@ F51 "SPI_EN" I R 4750 2500 60
 F52 "SPI_CLK" I R 4750 2300 60 
 $EndSheet
 Wire Wire Line
-	1850 1400 3050 1400
-Wire Wire Line
-	1850 1300 3050 1300
-Wire Wire Line
-	1850 1200 3050 1200
-Wire Wire Line
 	650  1300 950  1300
 Wire Wire Line
-	650  750  2800 750 
+	650  750  2200 750 
 Wire Wire Line
 	2800 750  2800 1100
 Wire Wire Line
 	2800 1100 3050 1100
-Wire Wire Line
-	2600 800  2600 750 
 Connection ~ 2600 750 
-Wire Wire Line
-	2400 750  2400 900 
 Connection ~ 2400 750 
-Wire Wire Line
-	2200 1000 2200 750 
 Connection ~ 2200 750 
-Connection ~ 2200 1400
-Connection ~ 2400 1300
-Connection ~ 2600 1200
 Wire Wire Line
 	950  1200 750  1200
 Wire Wire Line
@@ -324,7 +277,6 @@ Wire Wire Line
 Connection ~ 2950 6300
 Wire Wire Line
 	2950 6600 2850 6600
-Connection ~ 2950 6600
 Wire Wire Line
 	4850 6500 5250 6500
 Wire Wire Line
@@ -355,7 +307,7 @@ Wire Wire Line
 	5250 3800 4850 3800
 Connection ~ 4850 3800
 $Comp
-L CONN_31 P102
+L owncomp:CONN_31 P102
 U 1 1 5485592A
 P 2550 5350
 F 0 "P102" V 2550 4850 60  0000 C CNN
@@ -366,12 +318,12 @@ F 3 "" H 2600 5350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2950 3450 2950 6600
+	2950 3450 2950 4200
 Text Label 2950 3550 1    60   ~ 0
 5V
 Connection ~ 4850 6500
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5485B5A3
 P 4850 6950
 F 0 "#PWR01" H 4850 6950 30  0001 C CNN
@@ -447,6 +399,89 @@ Connection ~ 4850 2400
 Wire Wire Line
 	4850 2200 5250 2200
 Wire Wire Line
-	4850 2200 4850 6950
+	4850 2200 4850 2400
 Connection ~ 2950 4200
+Wire Wire Line
+	2600 750  2800 750 
+Wire Wire Line
+	2400 750  2600 750 
+Wire Wire Line
+	2200 750  2400 750 
+Wire Wire Line
+	2950 4500 2950 4800
+Wire Wire Line
+	2950 4800 2950 5100
+Wire Wire Line
+	2950 5100 2950 5400
+Wire Wire Line
+	2950 5400 2950 5700
+Wire Wire Line
+	2950 5700 2950 6000
+Wire Wire Line
+	2950 6000 2950 6300
+Wire Wire Line
+	2950 6300 2950 6600
+Wire Wire Line
+	4850 6200 4850 6500
+Wire Wire Line
+	4850 5900 4850 6200
+Wire Wire Line
+	4850 5600 4850 5900
+Wire Wire Line
+	4850 5300 4850 5600
+Wire Wire Line
+	4850 5000 4850 5300
+Wire Wire Line
+	4850 4700 4850 5000
+Wire Wire Line
+	4850 4400 4850 4700
+Wire Wire Line
+	4850 4100 4850 4400
+Wire Wire Line
+	4850 3800 4850 4100
+Wire Wire Line
+	4850 6500 4850 6950
+Wire Wire Line
+	4850 3600 4850 3800
+Wire Wire Line
+	4850 3400 4850 3600
+Wire Wire Line
+	4850 3200 4850 3400
+Wire Wire Line
+	4850 3000 4850 3200
+Wire Wire Line
+	4850 2800 4850 3000
+Wire Wire Line
+	4850 2600 4850 2800
+Wire Wire Line
+	4850 2400 4850 2600
+Wire Wire Line
+	2950 4200 2950 4500
+Wire Wire Line
+	1850 1400 2200 1400
+Wire Wire Line
+	1850 1300 2400 1300
+Wire Wire Line
+	1850 1200 2600 1200
+Wire Wire Line
+	2200 750  2200 1050
+Wire Wire Line
+	2200 1350 2200 1400
+Connection ~ 2200 1400
+Wire Wire Line
+	2200 1400 3050 1400
+Wire Wire Line
+	2400 1250 2400 1300
+Connection ~ 2400 1300
+Wire Wire Line
+	2400 1300 3050 1300
+Wire Wire Line
+	2600 1150 2600 1200
+Connection ~ 2600 1200
+Wire Wire Line
+	2600 1200 3050 1200
+Wire Wire Line
+	2600 750  2600 850 
+Wire Wire Line
+	2400 750  2400 950 
 $EndSCHEMATC
