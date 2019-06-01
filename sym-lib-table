@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name owncomp)(type Legacy)(uri ${KIPRJMOD}/kicad-modules/owncomp.lib)(options "")(descr ""))
   (lib (name fmc_lpc)(type Legacy)(uri ${KIPRJMOD}/fmc_lpc.lib)(options "")(descr ""))
+  (lib (name conn_shielded)(type Legacy)(uri ${KIPRJMOD}/conn_shielded.lib)(options "")(descr ""))
 )
