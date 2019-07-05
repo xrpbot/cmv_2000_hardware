@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name fmc_lpc)(type Legacy)(uri ${KIPRJMOD}/fmc_lpc.lib)(options "")(descr ""))
-  (lib (name conn_shielded)(type Legacy)(uri ${KIPRJMOD}/conn_shielded.lib)(options "")(descr ""))
+  (lib (name fmc_lpc)(type Legacy)(uri ${KIPRJMOD}/symbols/fmc_lpc.lib)(options "")(descr ""))
+  (lib (name conn_shielded)(type Legacy)(uri ${KIPRJMOD}/symbols/conn_shielded.lib)(options "")(descr ""))
 )
