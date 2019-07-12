@@ -2,8 +2,11 @@ VHDL                  Zynq_pkg Zynq                          Zedboard       FMC 
 
                                                                             n/a    J51/51         J51/1         LED
                                                                             -      J51/50         J51/2         EEPROM_A0
-                                                                            C11    J51/49         J51/3         EEPROM_SDA
-                                                                            C14    J51/48         J51/4         EEPROM_SCL
+                      U7       Bank13-IO_25                  FMC-SDA        C31    J51/49         J51/3         EEPROM_SDA        optional (jumper)
+                      R7       Bank13-IO_0                   FMC-SCL        C30    J51/48         J51/4         EEPROM_SCL        optional (jumper)
+
+                      R19      Bank34-IO_L22P_T3             FMC-LA10_P     C14    CAM_PWR_ON     -             -                 optional (jumper)
+                      P17      Bank34-IO_L20P_T3             FMC-LA02_P     H7     CAM_PWR_GOOD   -             -                 optional (jumper)
 
 cmv_sys_res_n         T19      Bank34-IO_L22N_T3             FMC-LA10_N     C15    J51/47         J51/5         SYS_RES_N
 
@@ -13,15 +16,15 @@ spi_in                C20      Bank35-IO_L14N_T2_AD4N_SRCC   FMC-LA18_CC_N  C23 
 spi_out               D20      Bank35-IO_L14P_T2_AD4P_SRCC   FMC-LA18_CC_P  C22    J51/41         J51/11        SPI_OUT
 
 cmv_clk_in            E21      Bank35-IO_L17P_T2_AD5P        FMC-LA27_P     C26    J51/31         J51/21        CLK_IN
-cmv_t_exp1            R7       Bank13-IO_0                   FMC-SCL        C30    J51/35         J51/17        T_EXP2            ???
-cmv_t_exp2            U7       Bank13-IO_25                  FMC-SDA        C31    J51/37         J51/15        T_EXP1            ???
+cmv_t_exp1            L21      Bank34-IO_L10P_T1             FMC-LA06_P     C10    J51/37         J51/15        T_EXP1            pin assignment changed
+cmv_t_exp2            L22      Bank34-IO_L10N_T1             FMC-LA06_N     C11    J51/35         J51/17        T_EXP2            pin assignment changed
 cmv_frame_req         D21      Bank35-IO_L17N_T2_AD5N        FMC-LA27_N     C27    J51/33         J51/19        FRAME_REQ
 
 cmv_lvds_outclk_n     C19      Bank35-IO_L12N_T1_MRCC        FMC-CLK1_N     G3     J51/2          J51/50        LVDS_CLK_OUT_N
 cmv_lvds_outclk_p     D18      Bank35-IO_L12P_T1_MRCC        FMC-CLK1_P     G2     J51/1          J51/51        LVDS_CLK_OUT_P
 
-cmv_lvds_clk_n        L19      Bank34-IO_L12N_T1_MRCC        FMC-CLK0_N     H5     J41/16         J31/26        LVDS_CLK_IN_N
-cmv_lvds_clk_p        L18      Bank34-IO_L12P_T1_MRCC        FMC-CLK0_P     H4     J41/17         J31/25        LVDS_CLK_IN_P
+cmv_lvds_clk_n        L19      Bank34-IO_L12N_T1_MRCC        FMC-CLK0_N     H5     J41/16         J31/26        LVDS_CLK_IN_N     optional (jumper)
+cmv_lvds_clk_p        L18      Bank34-IO_L12P_T1_MRCC        FMC-CLK0_P     H4     J41/17         J31/25        LVDS_CLK_IN_P     optional (jumper)
 
 cmv_lvds_ctrl_n       A22      Bank35-IO_L15N_T2_DQS_AD12N   FMC-LA32_N     H38    J51/29         J51/23        LVDS_CTR_N
 cmv_lvds_ctrl_p       A21      Bank35-IO_L15P_T2_DQS_AD12P   FMC-LA32_P     H37    J51/28         J51/24        LVDS_CTR_P

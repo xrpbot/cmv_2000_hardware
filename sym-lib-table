@@ -1,4 +1,10 @@
 (sym_lib_table
   (lib (name fmc_lpc)(type Legacy)(uri ${KIPRJMOD}/symbols/fmc_lpc.lib)(options "")(descr ""))
   (lib (name conn_shielded)(type Legacy)(uri ${KIPRJMOD}/symbols/conn_shielded.lib)(options "")(descr ""))
+  (lib (name ap3211)(type Legacy)(uri ${KIPRJMOD}/symbols/ap3211.lib)(options "")(descr ""))
+  (lib (name sn74axc8t245)(type Legacy)(uri ${KIPRJMOD}/symbols/sn74axc8t245.lib)(options "")(descr ""))
+  (lib (name sn74lvc2t45)(type Legacy)(uri ${KIPRJMOD}/symbols/sn74lvc2t45.lib)(options "")(descr ""))
+  (lib (name bd49xxx)(type Legacy)(uri ${KIPRJMOD}/symbols/bd49xxx.lib)(options "")(descr ""))
+  (lib (name bu46xxx)(type Legacy)(uri ${KIPRJMOD}/symbols/bu46xxx.lib)(options "")(descr ""))
+  (lib (name r_network)(type Legacy)(uri ${KIPRJMOD}/symbols/r_network.lib)(options "")(descr ""))
 )
