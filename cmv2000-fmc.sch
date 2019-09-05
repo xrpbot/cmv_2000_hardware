@@ -1044,7 +1044,7 @@ U 1 1 5D2175F5
 P 8200 8750
 F 0 "J3" H 8299 8726 50  0000 L CNN
 F 1 "LVDS_CLK_IN_P" H 8299 8635 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 8200 8750 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 8200 8750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 8200 8750 50  0001 C CNN
 F 4 "U.FL-R-SMT-1(10)" H 8200 8750 50  0001 C CNN "MPN"
 F 5 "H11891CT-ND" H 8200 8750 50  0001 C CNN "Digikey"
@@ -1057,7 +1057,7 @@ U 1 1 5D2176C9
 P 8200 9300
 F 0 "J4" H 8299 9276 50  0000 L CNN
 F 1 "LVDS_CLK_IN_N" H 8299 9185 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 8200 9300 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 8200 9300 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 8200 9300 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1122,7 +1122,7 @@ U 1 1 5D2A0E6C
 P 10000 8750
 F 0 "J5" H 10100 8726 50  0000 L CNN
 F 1 "LVDS_CLK_OUT_P" H 10100 8635 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 10000 8750 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 10000 8750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 10000 8750 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1135,7 +1135,7 @@ U 1 1 5D2A0E73
 P 10000 9300
 F 0 "J6" H 10100 9276 50  0000 L CNN
 F 1 "LVDS_CLK_OUT_N" H 10100 9185 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 10000 9300 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 10000 9300 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 10000 9300 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1200,7 +1200,7 @@ U 1 1 5D2BD01F
 P 11800 8750
 F 0 "J10" H 11900 8726 50  0000 L CNN
 F 1 "LVDS_CTR_P" H 11900 8635 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 11800 8750 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 11800 8750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 11800 8750 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1213,7 +1213,7 @@ U 1 1 5D2BD026
 P 11800 9300
 F 0 "J11" H 11899 9276 50  0000 L CNN
 F 1 "LVDS_CTR_N" H 11899 9185 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 11800 9300 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 11800 9300 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 11800 9300 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1278,7 +1278,7 @@ U 1 1 5D2D97DB
 P 13600 8750
 F 0 "J12" H 13700 8726 50  0000 L CNN
 F 1 "LVDS_1_P" H 13700 8635 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 13600 8750 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 13600 8750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 13600 8750 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1291,7 +1291,7 @@ U 1 1 5D2D97E2
 P 13600 9300
 F 0 "J13" H 13700 9276 50  0000 L CNN
 F 1 "LVDS_1_N" H 13700 9185 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 13600 9300 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 13600 9300 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 13600 9300 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1356,7 +1356,7 @@ U 1 1 5D2F6568
 P 15400 8750
 F 0 "J14" H 15500 8726 50  0000 L CNN
 F 1 "LVDS_2_P" H 15500 8635 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 15400 8750 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 15400 8750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 15400 8750 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1369,7 +1369,7 @@ U 1 1 5D2F656F
 P 15400 9300
 F 0 "J15" H 15500 9276 50  0000 L CNN
 F 1 "LVDS_2_N" H 15500 9185 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 15400 9300 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 15400 9300 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 15400 9300 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -1434,7 +1434,7 @@ U 1 1 5D33244E
 P 10000 10100
 F 0 "J7" H 10100 10076 50  0000 L CNN
 F 1 "CLK_IN" H 10100 9985 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 10000 10100 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 10000 10100 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 10000 10100 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
@@ -2226,7 +2226,7 @@ U 1 1 5D29B199
 P 10000 10700
 F 0 "J8" H 10100 10676 50  0000 L CNN
 F 1 "CLK_IN" H 10100 10585 50  0000 L CNN
-F 2 "footprints:U.FL-R-SMT-1" H 10000 10700 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 10000 10700 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 10000 10700 50  0001 C CNN
 F 4 "H11891CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "U.FL-R-SMT-1(10)" H 0   0   50  0001 C CNN "MPN"
