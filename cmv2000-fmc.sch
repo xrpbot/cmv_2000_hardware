@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:cmv2000-fmc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2765,7 +2766,7 @@ Wire Wire Line
 	8850 6000 9200 6000
 Wire Wire Line
 	10100 6000 10350 6000
-Text Notes 3200 9350 0    50   ~ 0
+Text Notes 2950 10700 0    50   ~ 0
 VOUT = 0.81V * ((R1+R2)/R2)
 Wire Wire Line
 	3650 9700 4100 9700
@@ -2773,8 +2774,8 @@ Wire Wire Line
 	4100 10300 4100 10000
 Wire Wire Line
 	5250 10150 5250 10300
-Text Notes 1150 10850 0    50   ~ 0
-TODO:\n* bootstrap diode?\n* can output voltage be lower than 5V to reduce regulator dropout on camera board?
+Text Notes 1150 10900 0    50   ~ 0
+TODO: can output voltage be lower than 5V to reduce regulator dropout on camera board?
 Connection ~ 4100 9700
 Wire Wire Line
 	4100 9700 4350 9700
@@ -2946,4 +2947,26 @@ Wire Wire Line
 Connection ~ 10650 4050
 Wire Wire Line
 	10650 4050 11400 4050
+$Comp
+L Device:D D4
+U 1 1 5D96AAEC
+P 3800 9400
+F 0 "D4" H 3800 9616 50  0000 C CNN
+F 1 "D" H 3800 9525 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 3800 9400 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/1N4148X(SOD-523).PDF" H 3800 9400 50  0001 C CNN
+F 4 "1N4148X-TP" H 3800 9400 50  0001 C CNN "MPN"
+F 5 "1N4148XTPMSCT-ND" H 3800 9400 50  0001 C CNN "Digikey"
+	1    3800 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 9400 3650 9400
+Connection ~ 2950 9400
+Wire Wire Line
+	3950 9400 4100 9400
+Wire Wire Line
+	4100 9400 4100 9700
+Text Notes 2700 9100 0    50   ~ 0
+NOTE: Bootstrap diode D4 is optional.
 $EndSCHEMATC
