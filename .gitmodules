@@ -1,3 +1,6 @@
-[submodule "kicad-modules"]
+[submodule "kicad-modules-sensor"]
 	path = sensor_board/kicad-modules
-	url = https://darthrake@github.com/nfbraun/kicad-modules.git
+	url = https://github.com/nfbraun/kicad-modules.git
+[submodule "kicad-modules-fmc"]
+	path = fmc_board/kicad-modules
+	url = https://github.com/nfbraun/kicad-modules.git

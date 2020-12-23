@@ -1,0 +1,5 @@
+*.bak
+*.bck
+*.kicad_pcb-bak
+fp-info-cache
+/fmc_board/cmv2000-fmc-cache.lib

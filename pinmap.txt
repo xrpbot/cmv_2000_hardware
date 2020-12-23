@@ -1,0 +1,63 @@
+VHDL                  Zynq_pkg Zynq                          Zedboard       FMC    JST/Adapter    JST/Camera    CMV2000           Comment
+
+                                                                            n/a    J51/51         J51/1         LED
+                                                                            -      J51/50         J51/2         EEPROM_A0
+                      U7       Bank13-IO_25                  FMC-SDA        C31    J51/49         J51/3         EEPROM_SDA        optional (jumper)
+                      R7       Bank13-IO_0                   FMC-SCL        C30    J51/48         J51/4         EEPROM_SCL        optional (jumper)
+
+                      R19      Bank34-IO_L22P_T3             FMC-LA10_P     C14    CAM_PWR_ON     -             -                 optional (jumper)
+                      P17      Bank34-IO_L20P_T3             FMC-LA02_P     H7     CAM_PWR_GOOD   -             -                 optional (jumper)
+
+cmv_sys_res_n         T19      Bank34-IO_L22N_T3             FMC-LA10_N     C15    J51/47         J51/5         SYS_RES_N
+
+spi_en                K20      Bank34-IO_L11N_T1_SRCC        FMC-LA14_N     C19    J51/43         J51/9         SPI_EN
+spi_clk               K19      Bank34-IO_L11P_T1_SRCC        FMC-LA14_P     C18    J51/45         J51/7         SPI_CLK
+spi_in                C20      Bank35-IO_L14N_T2_AD4N_SRCC   FMC-LA18_CC_N  C23    J51/39         J51/13        SPI_IN
+spi_out               D20      Bank35-IO_L14P_T2_AD4P_SRCC   FMC-LA18_CC_P  C22    J51/41         J51/11        SPI_OUT
+
+cmv_clk_in            E21      Bank35-IO_L17P_T2_AD5P        FMC-LA27_P     C26    J51/31         J51/21        CLK_IN
+cmv_t_exp1            L21      Bank34-IO_L10P_T1             FMC-LA06_P     C10    J51/37         J51/15        T_EXP1            pin assignment changed
+cmv_t_exp2            L22      Bank34-IO_L10N_T1             FMC-LA06_N     C11    J51/35         J51/17        T_EXP2            pin assignment changed
+cmv_frame_req         D21      Bank35-IO_L17N_T2_AD5N        FMC-LA27_N     C27    J51/33         J51/19        FRAME_REQ
+
+cmv_lvds_outclk_n     C19      Bank35-IO_L12N_T1_MRCC        FMC-CLK1_N     G3     J51/2          J51/50        LVDS_CLK_OUT_N
+cmv_lvds_outclk_p     D18      Bank35-IO_L12P_T1_MRCC        FMC-CLK1_P     G2     J51/1          J51/51        LVDS_CLK_OUT_P
+
+cmv_lvds_clk_n        L19      Bank34-IO_L12N_T1_MRCC        FMC-CLK0_N     H5     J41/16         J31/26        LVDS_CLK_IN_N     optional (jumper)
+cmv_lvds_clk_p        L18      Bank34-IO_L12P_T1_MRCC        FMC-CLK0_P     H4     J41/17         J31/25        LVDS_CLK_IN_P     optional (jumper)
+
+cmv_lvds_ctrl_n       A22      Bank35-IO_L15N_T2_DQS_AD12N   FMC-LA32_N     H38    J51/29         J51/23        LVDS_CTR_N
+cmv_lvds_ctrl_p       A21      Bank35-IO_L15P_T2_DQS_AD12P   FMC-LA32_P     H37    J51/28         J51/24        LVDS_CTR_P
+
+cmv_lvds_data_n[0]    E18      Bank35-IO_L5N_T0_AD9N         FMC-LA26_N     D27    J41/19         J31/23        LVDS_1_N
+cmv_lvds_data_p[0]    F18      Bank35-IO_L5P_T0_AD9P         FMC-LA26_P     D26    J41/20         J31/22        LVDS_1_P
+cmv_lvds_data_n[1]    B15      Bank35-IO_L7N_T1_AD2N         FMC-LA30_N     H35    J51/26         J51/26        LVDS_2_N
+cmv_lvds_data_p[1]    C15      Bank35-IO_L7P_T1_AD2P         FMC-LA30_P     H34    J51/25         J51/27        LVDS_2_P
+cmv_lvds_data_n[2]    A19      Bank35-IO_L10N_T1_AD11N       FMC-LA24_N     H29    J51/20         J51/32        LVDS_3_N
+cmv_lvds_data_p[2]    A18      Bank35-IO_L10P_T1_AD11P       FMC-LA24_P     H28    J51/19         J51/33        LVDS_3_P
+cmv_lvds_data_n[3]    A17      Bank35-IO_L9N_T1_DQS_AD3N     FMC-LA28_N     H32    J51/23         J51/29        LVDS_4_N
+cmv_lvds_data_p[3]    A16      Bank35-IO_L9P_T1_DQS_AD3P     FMC-LA28_P     H31    J51/22         J51/30        LVDS_4_P
+cmv_lvds_data_n[4]    D15      Bank35-IO_L3N_T0_DQS_AD1N     FMC-LA23_N     D24    J41/22         J31/20        LVDS_5_N
+cmv_lvds_data_p[4]    E15      Bank35-IO_L3P_T0_DQS_AD1P     FMC-LA23_P     D23    J41/23         J31/19        LVDS_5_P
+cmv_lvds_data_n[5]    B20      Bank35-IO_L13N_T2_MRCC        FMC-LA17_CC_N  D21    J41/25         J31/17        LVDS_6_N
+cmv_lvds_data_p[5]    B19      Bank35-IO_L13P_T2_MRCC        FMC-LA17_CC_P  D20    J41/26         J31/16        LVDS_6_P
+cmv_lvds_data_n[6]    J17      Bank34-IO_L2N_T0              FMC-LA15_N     H20    J51/11         J51/41        LVDS_7_N
+cmv_lvds_data_p[6]    J16      Bank34-IO_L2P_T0              FMC-LA15_P     H19    J51/10         J51/42        LVDS_7_P
+cmv_lvds_data_n[7]    E20      Bank35-IO_L21N_T3_DQS_AD14N   FMC-LA21_N     H26    J51/17         J51/35        LVDS_8_N
+cmv_lvds_data_p[7]    E19      Bank35-IO_L21P_T3_DQS_AD14P   FMC-LA21_P     H25    J51/16         J51/36        LVDS_8_P
+cmv_lvds_data_n[8]    G16      Bank35-IO_L4N_T0              FMC-LA19_N     H23    J51/14         J51/38        LVDS_9_N
+cmv_lvds_data_p[8]    G15      Bank35-IO_L4P_T0              FMC-LA19_P     H22    J51/13         J51/39        LVDS_9_P
+cmv_lvds_data_n[9]    N18      Bank34-IO_L5N_T0              FMC-LA11_N     H17    J51/8          J51/44        LVDS_10_N
+cmv_lvds_data_p[9]    N17      Bank34-IO_L5P_T0              FMC-LA11_P     H16    J51/7          J51/45        LVDS_10_P
+cmv_lvds_data_n[10]   M17      Bank34-IO_L4N_T0              FMC-LA13_N     D18    J41/28         J31/14        LVDS_11_N
+cmv_lvds_data_p[10]   L17      Bank34-IO_L4P_T0              FMC-LA13_P     D17    J41/29         J31/13        LVDS_11_P
+cmv_lvds_data_n[11]   R21      Bank34-IO_L17N_T2             FMC-LA09_N     D15    J41/31         J31/11        LVDS_12_N
+cmv_lvds_data_p[11]   R20      Bank34-IO_L17P_T2             FMC-LA09_P     D14    J41/32         J31/10        LVDS_12_P
+cmv_lvds_data_n[12]   M22      Bank34-IO_L15N_T2_DQS         FMC-LA04_N     H11    J51/5          J51/47        LVDS_13_N
+cmv_lvds_data_p[12]   M21      Bank34-IO_L15P_T2_DQS         FMC-LA04_P     H10    J51/4          J51/48        LVDS_13_P
+cmv_lvds_data_n[13]   K18      Bank34-IO_L7N_T1              FMC-LA05_N     D12    J41/34         J31/8         LVDS_14_N
+cmv_lvds_data_p[13]   J18      Bank34-IO_L7P_T1              FMC-LA05_P     D11    J41/35         J31/7         LVDS_14_P
+cmv_lvds_data_n[14]   T17      Bank34-IO_L21N_T3_DQS         FMC-LA07_N     H14    J41/40         J31/2         LVDS_15_N
+cmv_lvds_data_p[14]   T16      Bank34-IO_L21P_T3_DQS         FMC-LA07_P     H13    J41/41         J31/1         LVDS_15_P
+cmv_lvds_data_n[15]   N20      Bank34-IO_L14N_T2_SRCC        FMC-LA01_CC_N  D9     J41/37         J31/5         LVDS_16_N
+cmv_lvds_data_p[15]   N19      Bank34-IO_L14P_T2_SRCC        FMC-LA01_CC_P  D8     J41/38         J31/4         LVDS_16_P
